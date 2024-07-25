@@ -1,0 +1,165 @@
+/* Importando a fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo básico e moderno para o site LIAREA */
+
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    box-sizing: border-box; /* Faz com que padding e border não alterem as dimensões dos elementos */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Define a fonte padrão para o corpo do documento */
+    color: #333; /* Define a cor do texto padrão */
+    background-color: #f4f4f9; /* Define a cor de fundo do corpo */
+    line-height: 1.6; /* Define a altura da linha para o texto */
+}
+
+nav {
+    background-color: #222; /* Define a cor de fundo da barra de navegação */
+    color: #ffffff; /* Define a cor do texto na barra de navegação */
+    text-align: center; /* Centraliza o texto dentro da barra de navegação */
+    padding: 10px 0; /* Adiciona preenchimento vertical à barra de navegação */
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove preenchimento padrão da lista */
+}
+
+nav ul li {
+    display: inline; /* Exibe itens da lista em linha, não em bloco */
+    margin-right: 10px; /* Adiciona margem à direita de cada item da lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove sublinhados dos links */
+    color: white; /* Define a cor do texto dos links */
+    padding: 10px 20px; /* Adiciona preenchimento aos links para aumentar a área clicável */
+    display: inline-block; /* Permite definir preenchimento e outros espaços */
+    transition: background-color 0.3s; /* Suaviza a transição de cor de fundo ao passar o mouse */
+}
+
+nav ul li a:hover {
+    background-color: #0077cc; /* Muda a cor de fundo do item quando o mouse está sobre ele */
+}
+
+h1 {
+    font-size: 3.5em; /* Aumenta o tamanho da fonte do título */
+    margin-top: 20px; /* Adiciona margem acima do título */
+    margin-bottom: px; /* Adiciona margem abaixo do título */
+    color: #0077cc; /* Define a cor do título */
+}
+
+p {
+    margin-top: 10px; /* Adiciona margem acima do parágrafo para espaçamento */
+}
+
+footer {
+    background-color: #222; /* Define a cor de fundo do rodapé */
+    color: #ddd; /* Define a cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 20px 10px; /* Adiciona preenchimento ao rodapé */
+}
+
+footer a {
+    color: #0af; /* Define a cor dos links no rodapé */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center; /* Centraliza a navegação em telas menores */
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block; /* Exibe itens da lista em blocos em telas menores */
+        margin-bottom: 5px; /* Adiciona margem abaixo de cada item em telas menores */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Ajusta o tamanho da fonte do título em telas menores */
+    }
+}
+
+/* Importando a fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo geral da página */
+body, h2 {
+    text-align: center;  /* Centraliza os títulos na página */
+    font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto para uma aparência moderna e limpa */
+}
+
+/* Importando a fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo geral da página */
+body, h2 {
+    text-align: center;  /* Centraliza os títulos na página */
+    font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto para uma aparência moderna e limpa */
+}
+
+#members {
+    text-align: center;
+    padding: 60px;
+    background-color: #fefeff; /* Cor de fundo leve para o container de membros */
+}
+
+.section-container {
+    margin-bottom: -28px; /* Adiciona espaço entre as seções de professores e estudantes */
+}
+
+.member-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  /* Permite que os membros se ajustem em várias linhas se necessário */
+    padding: 30px;    /* Espaço generoso ao redor do conteúdo dentro do container para separação visual */
+}
+
+.member {
+    width: 250px;    /* Largura fixa para cada membro */
+    margin: 35px;    /* Espaço entre os membros para evitar sobreposição */
+    padding: 0px;
+    background-color: #fff; /* Fundo branco para cada membro, destacando individualmente */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1); /* Sombra sutil para um efeito 3D leve */
+    text-align: center; /* Centraliza o texto dentro de cada 'member' */
+}
+
+.member img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* Imagens redondas para um visual moderno */
+    margin-top: -50px; /* Ajusta a imagem para sobrepor a borda superior do cartão do membro */
+    border: 4px solid #fff; /* Borda branca ao redor da imagem para separação visual do fundo */
+}
+
+.member h3 {
+    margin-top: 5px; /* Espaço após a imagem para o nome */
+}
+
+.member p {
+    color: #666; /* Cor cinza para o texto descrevendo o papel do membro */
+    font-size: 0.9em; /* Tamanho de fonte menor para texto descritivo */
+}
+
+.social-links {
+    margin-top: 20px; /* Espaço antes dos ícones sociais para clareza visual */
+}
+
+.social-links a {
+    margin: 0 5px; /* Espaçamento entre ícones sociais */
+    display: inline-block; /* Permite melhor controle do layout dos ícones */
+}
+
+.social-links img {
+    width: 35px; /* Tamanho consistente para ícones sociais */
+    height: 35px;
+    object-fit: contain; /* Evita distorção dos ícones */
+}
+
+
+
