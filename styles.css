@@ -121,7 +121,7 @@ body, h2 {
 }
 
 .member {
-    width: 250px;    /* Largura fixa para cada membro */
+    width: 400px;    /* Largura fixa para cada membro */
     margin: 35px;    /* Espaço entre os membros para evitar sobreposição */
     padding: 0px;
     background-color: #fff; /* Fundo branco para cada membro, destacando individualmente */
